@@ -15,6 +15,7 @@ import {
   Outline,
   Span,
 } from "./styles";
+import { Link } from "react-router-dom";
 
 const Header = ({ t }: any) => {
   const [visible, setVisibility] = useState(false);
@@ -45,6 +46,9 @@ const Header = ({ t }: any) => {
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
           <Span>{t("Product")}</Span>
+        </CustomNavLinkSmall>
+        <CustomNavLinkSmall >
+          <Link to={{ pathname: "https://demo.radiancetech.in" }} target="_blank">{t("Demo")}</Link>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}

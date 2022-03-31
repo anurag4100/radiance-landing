@@ -1,9 +1,10 @@
 {
-  "title": "We build stuff which gets things done!",
-  "text": "Beutifully designed, Responsive and fully customizable websites which supports all kinds of devices.",
+  "title": "One stop shop for all your ERP needs!",
+  "text": "Comprehensive view of your educational instituition with customizable dashboard. Modules to manage students, teachers and various non teaching staff.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Explore",
+      "link":"https://demo.radiancetech.in"
     },
     {
       "title": "Learn more",
