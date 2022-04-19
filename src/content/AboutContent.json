@@ -1,15 +1,15 @@
 {
   "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "text": "Say goodbye to grumpy spinners and loaders!",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Optimized!",
+      "content": "Radiance is built with a phylosophy that no operation should take more than a couple of seconds to perform.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Responsive Design",
+      "content": "Radiance support wide range of devices including but not limited to Mobile phones, Tablets, Laptops etc. Now take your work anywhere with ease",
       "icon": "notes.svg"
     }
   ]
