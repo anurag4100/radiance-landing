@@ -52,7 +52,9 @@ const RightBlock = ({
             </ContentWrapper>
           </Col>
           <Col lg={11} md={11} sm={12} xs={24}>
-            <SvgIcon src={icon} width="100%" height="100%" />
+            { !icon.includes('dash') ? <SvgIcon src={icon} width="100%" height="100%" /> 
+            // @ts-ignore: Unreachable code error
+            : <iframe allowfullscreen="allowfullscreen" frameborder="no" width="560" height="315" src="https://wideo.co/embed/36639051650369220393?width=560&height=315&repeat=false&autoplay=false&hideControls=false&html5=true"/>}
           </Col>
         </Row>
       </Fade>
